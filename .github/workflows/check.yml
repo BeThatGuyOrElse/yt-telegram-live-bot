@@ -2,7 +2,7 @@ name: Check YouTube Live
 
 on:
   schedule:
-    - cron: "*/59 * * * *"   # alle 59 Minuten
+    - cron: "*/15 * * * *"   
   workflow_dispatch:
 
 jobs:
