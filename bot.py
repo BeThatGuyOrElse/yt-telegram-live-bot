@@ -38,7 +38,7 @@ def get_live():
 
 def send_telegram(video_id, title):
     text = (
-        "🔴 Livestream gestartet!\n\n"
+        "🔴 Neuer Lügenbrecher Livestream!\n\n"
         f"{title}\n\n"
         f"https://www.youtube.com/watch?v={video_id}"
     )
